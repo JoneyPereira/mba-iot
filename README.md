@@ -91,3 +91,67 @@ graph TD
   E --> E5[Aplicacoes]
   E5 --> E5a[Fraudes, diagnostico medico, redes sociais]
 ```
+## Fundamentos de Big Data e IoT IV
+```mermaid
+mindmap
+  root((Fundamentos de Big Data e IoT IV))
+
+    BI
+      Definição
+        BI = transformar dados em decisões
+      Arquitetura
+        Fontes de Dados
+        ETL
+        Data Warehouse
+        Ferramentas de BI
+        Dashboards e Relatórios
+      Aplicações nas Empresas
+        Otimização de processos
+        Previsão de tendências
+        Redução de custos
+        Tomada de decisão
+
+    Dashboards
+      Definição
+        Painel visual de dados em tempo real
+      Benefícios
+        Clareza
+        Agilidade
+        Monitoramento
+        Compartilhamento
+      Aplicações na Ciência de Dados
+        Métricas de modelos
+        Dados de sensores
+        Indicadores de negócio
+
+    Design Thinking e Inovação
+      Definição
+        Processo centrado no usuário
+      Etapas
+        Empatia
+        Definição
+        Ideação
+        Prototipagem
+        Teste
+      Relação com Inovação
+        Soluções criativas
+        Iteratividade
+      Processo de Negócio
+        Desenvolvimento de produtos
+        Cultura criativa
+
+    Inteligência Artificial
+      Conceito
+        Simular a inteligência humana
+      Histórico
+        1950: conceito inicial
+        1980-90: redes neurais
+        Atualidade: deep learning, NLP, IA generativa
+      Aplicações
+        Saúde
+        Finanças
+        Indústria
+        Varejo
+        Mobilidade
+        IoT
+```
