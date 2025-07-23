@@ -155,3 +155,70 @@ mindmap
         Mobilidade
         IoT
 ```
+## Aplicações de Internet das Coisas
+```mermaid
+mindmap
+  root((Internet das Coisas - IoT))
+    Aplicações
+      Saúde
+      Agricultura
+      Indústria 4.0
+      Cidades Inteligentes
+    Computação em Nuvem
+      Características
+        Elasticidade
+        Sob demanda
+        Multitenancy
+        Alta disponibilidade
+      Datacenter
+        Tradicional
+          Infraestrutura física
+          Alto custo inicial (CAPEX)
+          Escalabilidade limitada
+        Nuvem
+          Virtualização
+          Pagamento por uso (OPEX)
+          Alta escalabilidade
+      SLA, Custos e Segurança
+        SLA define uptime e suporte
+        Custos baseados em uso
+        Segurança com criptografia e controle de acesso
+    Aplicações Web e WoT
+      Diferença
+        IoT: conexão de objetos
+        WoT: uso de protocolos Web
+      REST e ROA
+        REST
+          HTTP
+          Stateless
+          Verbos: GET, POST, PUT, DELETE
+        ROA
+          Foco em recursos
+          URL como identificador
+      Controle de Acesso
+        CBAC
+          Baseado em contexto (ex: local, horário)
+        ABAC
+          Baseado em atributos (ex: cargo, projeto)
+    Web Services
+      REST
+        Leve
+        Usa JSON/XML
+        APIs modernas
+      SOAP
+        Robusto
+        Usa XML
+        Ambientes legados
+      Exemplos
+        REST: Twitter, GitHub, IoT APIs
+        SOAP: Bancos, sistemas governamentais
+    Plataformas Comerciais
+      Amazon AWS
+        EC2, S3, Lambda, IoT Core
+      Microsoft Azure
+        VM, Blob Storage, IoT Hub
+      Google Cloud
+        Compute Engine, Cloud Storage, Firebase
+      IBM Cloud
+        Watson, Node-RED, IoT Platform
+```
