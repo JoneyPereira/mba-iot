@@ -246,3 +246,7 @@ graph TD
     classDef network fill:#ffe4b3,stroke:#333,stroke-width:2px
     classDef perception fill:#ffb3b3,stroke:#333,stroke-width:2px
 ```
+- Camada de Percepção: sensores, RFID, atuadores — coleta dados do mundo físico.
+- Camada de Rede: protocolos de comunicação e transporte dos dados coletados.
+- Camada de Serviço: processamento, gerenciamento e armazenamento de dados.
+- Camada de Aplicação: entrega os serviços ao usuário final (painéis, apps, relatórios).
