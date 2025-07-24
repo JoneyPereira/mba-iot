@@ -222,3 +222,27 @@ mindmap
       IBM Cloud
         Watson, Node-RED, IoT Platform
 ```
+## Arquitetura de referência IoT-A (Internet of Things - Architecture)
+```mermaid
+graph TD
+    A[Camada de Aplicação] --> B[Camada de Serviço]
+    B --> C[Camada de Rede]
+    C --> D[Camada de Percepção]
+
+    subgraph Níveis da IoT-A
+        A
+        B
+        C
+        D
+    end
+
+    A:::app
+    B:::service
+    C:::network
+    D:::perception
+
+    classDef app fill:#c9f0ff,stroke:#333,stroke-width:2px
+    classDef service fill:#c2f5c0,stroke:#333,stroke-width:2px
+    classDef network fill:#ffe4b3,stroke:#333,stroke-width:2px
+    classDef perception fill:#ffb3b3,stroke:#333,stroke-width:2px
+```
