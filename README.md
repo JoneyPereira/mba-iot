@@ -250,3 +250,78 @@ graph TD
 - Camada de Rede: protocolos de comunicação e transporte dos dados coletados.
 - Camada de Serviço: processamento, gerenciamento e armazenamento de dados.
 - Camada de Aplicação: entrega os serviços ao usuário final (painéis, apps, relatórios).
+## Arquitetura e Infraestrutura de IoT II
+```mermaid
+mindmap
+  root((IoT - Arquitetura e Infraestrutura II))
+
+    Protocolos de Comunicação
+      Conceito
+        - Regras para troca de dados
+        - Eficiência e interoperabilidade
+      Importância
+        - Comunicação eficiente
+        - Baixo consumo
+        - Conectividade escalável
+      Comparação
+        MQTT
+          - Leve
+          - Assíncrono
+          - Broker
+        CoAP
+          - Baseado em REST
+          - Leve e multicast
+        HTTP
+          - Comum na web
+          - Pesado para IoT
+        LoRaWAN
+          - Longo alcance
+          - Baixo consumo
+        AMQP
+          - Alta confiabilidade
+          - Complexo
+
+    Protocolo MQTT
+      Objetivos
+        - Eficiência em redes instáveis
+        - Comunicação leve
+      Características
+        - Publish/Subscribe
+        - Baseado em TCP/IP
+        - QoS 0, 1, 2
+        - Necessita de Broker
+      Estrutura
+        - Cliente
+        - Broker
+        - Tópico
+        - Mensagem
+
+    Middleware
+      Definição
+        - Software intermediário
+        - Conecta dispositivos e apps
+      Serviços
+        - Gerenciamento de dispositivos
+        - Agregação de dados
+        - Segurança
+        - Gerenciamento de rede
+      Vantagens
+        - Escalabilidade
+        - Integração facilitada
+        - Interoperabilidade
+
+    Objetos Inteligentes
+      Definição
+        - Dispositivos com sensores, atuadores e conectividade
+      Exemplos
+        - Sensores
+        - Wearables
+        - Câmeras
+        - Carros conectados
+      Aplicações
+        - Saúde
+        - Indústria
+        - Agricultura
+        - Cidades inteligentes
+        - Varejo
+```
