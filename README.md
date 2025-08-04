@@ -392,3 +392,19 @@ mindmap
           Precisão
           Redução de perdas
 ```
+### Esquema de controle de motor DC com Arduino e transistor
+```mermaid
+graph TD
+    A[Arduino Pino 11] -->|Sinal PWM| R[Resistor 220 Ohms]
+    R --> B[Base do Transistor NPN]
+    E[Emissor do Transistor] --> GND1[GND]
+    C[Coletor do Transistor] --> M1[Motor DC]
+    V[+5V] --> M1
+    C --> D[Diodo Flyback]
+    D --> V
+    subgraph Transistor
+        B
+        C
+        E
+    end
+```
