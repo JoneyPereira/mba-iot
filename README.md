@@ -250,6 +250,7 @@ graph TD
 - Camada de Rede: protocolos de comunicação e transporte dos dados coletados.
 - Camada de Serviço: processamento, gerenciamento e armazenamento de dados.
 - Camada de Aplicação: entrega os serviços ao usuário final (painéis, apps, relatórios).
+
 ## Arquitetura e Infraestrutura de IoT II
 ```mermaid
 mindmap
@@ -324,4 +325,70 @@ mindmap
         - Agricultura
         - Cidades inteligentes
         - Varejo
+```
+
+## Arquitetura e Infraestrutura de IoT III
+```mermaid
+mindmap
+  root((Arquitetura e Infraestrutura de IoT III))
+  
+    Arduino
+      Introdução
+        Elementos Arquiteturais
+          Microcontrolador (ex: ATmega328)
+          Memórias (Flash, SRAM, EEPROM)
+          Pinos de I/O (Digitais e Analógicos)
+          Regulador de tensão
+        Comunicação
+          Protocolos: UART, I2C, SPI, Wi-Fi, Bluetooth
+          Componentes: sensores e atuadores
+        Aplicações IoT
+          Estação climática
+          Automação residencial
+          Controle de irrigação
+          Monitoramento remoto
+    
+    Atuadores
+      Motores DC
+        Funcionamento
+          Corrente contínua
+          Controle via PWM
+          Direção via Ponte H
+        Circuitos de acionamento
+          Ponte H (L298N, L293D)
+          Relés e transistores
+          Fonte externa
+        Aplicações
+          Robôs móveis
+          Portões automáticos
+          Sistemas de ventilação
+
+    Sensores
+      Tipos Comuns
+        Temperatura/Umidade (DHT11/22)
+        Luz (LDR)
+        Distância (HC-SR04)
+        Gás (MQ-2)
+        Movimento (PIR)
+      Escolha por Aplicação
+        Ambiente externo (resistentes)
+        Alta precisão (digitais)
+        Projetos simples (analógicos)
+      Integração
+        Conexão com pinos Arduino
+        Leitura e processamento de dados
+
+    RFID
+      Gestão de Armazenagem
+        Identificação sem contato
+        Inventário em tempo real
+      Automação de Estoque
+        Controle de entrada e saída
+        Acesso e rastreamento
+      Origem e Vantagens no Brasil
+        Chegada: anos 2000
+        Vantagens:
+          Agilidade
+          Precisão
+          Redução de perdas
 ```
