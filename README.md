@@ -408,3 +408,71 @@ graph TD
         E
     end
 ```
+## Arquitetura e Infraestrutura de IoT IV
+```mermaid
+mindmap
+  root((Arquitetura e Infraestrutura de IoT IV))
+
+    Aplicações IoT
+      Principais Negócios
+        Indústria 4.0
+        Agricultura Inteligente
+        Saúde Digital
+        Logística e Varejo
+        Energia Inteligente
+      Exemplos Gerais
+        Smart Home
+        Carros Conectados
+        Cidades Inteligentes
+      Com Arduino
+        Sensor de Temperatura
+        Detector de Presença
+        Nível de Água
+        Automação Residencial
+
+    Smart Cities
+      Conceito
+        Uso de TICs para gestão urbana inteligente
+      Tecnologias
+        Sensores IoT
+        Big Data e AI
+        5G
+        Nuvem
+        Sistemas Urbanos
+      Exemplos
+        Barcelona
+        Songdo
+        Curitiba
+
+    Perspectivas Futuras
+      Fundamentos
+        Maior integração e automação
+        Edge Computing
+        Mais dispositivos conectados
+      Aplicações Futuras
+        Cirurgias remotas
+        Robôs autônomos
+        Agricultura de Precisão
+        Moda Inteligente
+      Desafios
+        Segurança e Privacidade
+        Interoperabilidade
+        Escalabilidade
+        Energia
+        Atualizações Remotas
+
+    Segurança em IoT
+      Conceito
+        CIA (Confidencialidade, Integridade, Disponibilidade)
+      Boas Práticas
+        Autenticação Forte
+        Criptografia
+        Atualizações de Firmware
+        Segmentação de Rede
+        Monitoramento
+      Falhas Comuns
+        Senhas padrão
+        Sem criptografia
+        Portas abertas
+        Firmware inseguro
+```
