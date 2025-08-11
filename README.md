@@ -476,3 +476,58 @@ mindmap
         Portas abertas
         Firmware inseguro
 ```
+## Fundamentos de Inteligência Artificial
+```mermaid
+mindmap
+  root((Fundamentos de IA e IoT))
+    Introdução à IA
+      Conceito:::idea
+        "Simular inteligência humana"
+        "Aprender, raciocinar, decidir"
+        "Ex.: análise de sensores IoT"
+      História
+        "1950 - Teste de Turing"
+        "1956 - Nome 'IA' criado"
+        "2010+ - Deep Learning e IA embarcada"
+      Tipos
+        "IA Fraca → tarefas específicas"
+        "IA Forte → como humano"
+        "IA Superinteligente → hipotética"
+      Estatística básica
+        "Distribuição: padrão dos dados"
+        "Frequência: nº ocorrências"
+        "Média: valor central"
+    Teste de Turing
+      Conceito
+        "Avaliar se máquina pensa como humano"
+      Forças
+        "Simples, foca no comportamento"
+      Fraquezas
+        "Mede imitação, não inteligência real"
+      Aplicações
+        "Chatbots, assistentes virtuais"
+    Estatística para IA
+      Medidas
+        "Média → valor central"
+        "Desvio padrão → dispersão"
+        "Variância → dispersão²"
+      Intervalo de confiança
+        "Faixa de probabilidade para um valor real"
+      Regressão Linear
+        "Prever valores baseados em variáveis"
+        "Ex.: prever consumo de energia pela temperatura"
+      Curtose
+        "Forma da distribuição"
+    Probabilidade
+      Conceitos
+        "Contagem, Evento, Espaço amostral"
+      Probabilidade simples
+        "Chance de ocorrer um evento"
+      Condicional
+        "Chance dado que outro evento ocorreu"
+      Teorema de Bayes
+        "Atualizar probabilidade com nova evidência"
+      Aplicação IoT
+        "Previsão de falhas"
+        "Previsão meteorológica"
+```
