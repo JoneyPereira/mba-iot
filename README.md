@@ -531,3 +531,58 @@ mindmap
         "Previsão de falhas"
         "Previsão meteorológica"
 ```
+## Estrutura de dados para IA
+```mermaid
+mindmap
+  root((Estruturas de Dados e Python para IoT e IA))
+    Estruturas Condicionais e Iterativas
+      Tipos de Dados e Variáveis
+        Inteiro (int)
+        Decimal (float)
+        Texto (str)
+        Booleano (bool)
+        Lista, Tupla, Dicionário
+      Expressões
+        Operadores aritméticos
+        Operadores lógicos
+      Condicionais
+        if / elif / else
+        Aplicação: verificar estado de sensores
+      Iterativas
+        for: percorrer coleções
+        while: repetição com condição
+        Aplicação: loop de leitura de sensores
+    Funções e Classes
+      Funções
+        Definição com def
+        Parâmetros e retorno
+        Aplicação: função para ler dados do sensor
+      Classes
+        __init__ para inicialização
+        Atributos e métodos
+        Aplicação: modelar dispositivos IoT
+      POO
+        Encapsulamento
+        Reutilização de código
+    Estruturas de Dados I
+      Listas
+        Ordenadas e mutáveis
+        Operações: append, indexação
+        Aplicação: armazenar leituras de sensores
+      Filas (FIFO)
+        Implementação com deque
+        Aplicação: processamento de eventos
+      Pilhas (LIFO)
+        Implementação com list
+        Aplicação: histórico de comandos
+    Estruturas de Dados II
+      Árvores Binárias
+        Cada nó com até 2 filhos
+        Aplicação: árvores de decisão
+      BFS - Busca em Largura
+        Usar fila
+        Explorar nível a nível
+      DFS - Busca em Profundidade
+        Usar recursão ou pilha
+        Explorar até o fundo antes de voltar
+```
