@@ -586,3 +586,58 @@ mindmap
         Usar recursão ou pilha
         Explorar até o fundo antes de voltar
 ```
+## Redes Neurais
+```mermaid
+mindmap
+  root((IA e IoT - Redes Neurais e Estruturas de Dados))
+    Estruturas_de_dados_para_IA_III
+      Tabelas_Hash
+        Definição: chave→valor
+        Função_hash
+        Vantagens: busca O(1)
+      Colisões
+        Encadeamento: lista na mesma posição
+        Endereçamento_aberto: linear, quadrático, double hashing
+      Implementação_Python
+        Classe_HashTable
+        Inserir/Buscar_valores
+    Redes_Neurais_Artificiais
+      Elementos
+        Neurônio
+        Pesos_w
+        Bias_b
+        Função_de_ativação
+      Estruturas
+        Feedforward
+        Convolucional_CNN
+        Recorrente_RNN_LSTM
+        RBF
+      Algoritmos
+        Perceptron_Learning_Rule
+        Backpropagation
+        Gradient_Descent
+    Perceptrons
+      Modelo
+        Frank_Rosenblatt_1958
+        Linearmente_separável
+      Representações
+        Tabela_verdade
+        Equação_matemática
+        Diagrama_rede
+      Aprendizado
+        Ajuste_de_pesos
+        Exemplo: Porta_AND
+    Redes_Multicamadas
+      Características
+        Entrada_oculta_saida
+        Resolve_não_linear
+      Backpropagation
+        Passo_forward
+        Cálculo_erro
+        Passo_backward
+        Atualização_pesos
+      Utilização
+        Séries_temporais
+        Classificação_imagens
+        Detecção_anomalias
+```
