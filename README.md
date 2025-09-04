@@ -641,3 +641,83 @@ mindmap
         Classificação_imagens
         Detecção_anomalias
 ```
+### Funcionamento básico de um neurônio artificial, inspirado nas sinapses nervosas e no somatório.
+```mermaid
+flowchart LR
+    X1[x1] --> W1((w1))
+    X2[x2] --> W2((w2))
+    X3[x3] --> W3((w3))
+    
+    W1 --> S[Somatorio]
+    W2 --> S
+    W3 --> S
+    B[bias] --> S
+
+    S --> F[Ativacao]
+    F --> Y[y]
+
+    style S fill:#f9f,stroke:#333,stroke-width:1px
+    style F fill:#bbf,stroke:#333,stroke-width:1px
+    style Y fill:#bfb,stroke:#333,stroke-width:1px
+```
+### Rede Neural Multicamadas (MLP)
+```mermaid
+flowchart LR
+    %% Camada de entrada
+    I1[x1]:::input --> H1((h1)):::hidden
+    I2[x2]:::input --> H1
+    I3[x3]:::input --> H1
+
+    I1 --> H2((h2)):::hidden
+    I2 --> H2
+    I3 --> H2
+
+    %% Camada oculta para saída
+    H1 --> O1((y1)):::output
+    H2 --> O1
+
+    %% Estilos
+    classDef input fill:#bbf,stroke:#333,stroke-width:1px;
+    classDef hidden fill:#f9f,stroke:#333,stroke-width:1px;
+    classDef output fill:#bfb,stroke:#333,stroke-width:1px;
+```
+Como ler o diagrama:
+- 🔵 Nós azuis (x1, x2, x3) → Entradas.
+- 🟣 Nós rosas (h1, h2) → Camada oculta (neurônios ocultos).
+- 🟢 Nós verdes (y1) → Saída.
+Todas as entradas estão conectadas a todos os neurônios ocultos, e estes à saída — típico de uma MLP (Multilayer Perceptron).
+
+### Rede Neural Multicamadas (MLP) com duas camadas ocultas
+```mermaid
+flowchart LR
+    %% Camada de entrada
+    I1[x1]:::input --> H11((h11)):::hidden
+    I2[x2]:::input --> H11
+    I3[x3]:::input --> H11
+
+    I1 --> H12((h12)):::hidden
+    I2 --> H12
+    I3 --> H12
+
+    %% Segunda camada oculta
+    H11 --> H21((h21)):::hidden
+    H12 --> H21
+
+    H11 --> H22((h22)):::hidden
+    H12 --> H22
+
+    %% Camada de saída
+    H21 --> O1((y1)):::output
+    H22 --> O1
+
+    %% Estilos
+    classDef input fill:#bbf,stroke:#333,stroke-width:1px;
+    classDef hidden fill:#f9f,stroke:#333,stroke-width:1px;
+    classDef output fill:#bfb,stroke:#333,stroke-width:1px;
+```
+📌 Como ler agora:
+- 🔵 x1, x2, x3 → Entradas.
+- 🟣 h11, h12 → Primeira camada oculta.
+- 🟣 h21, h22 → Segunda camada oculta.
+- 🟢 y1 → Saída.
+🔑 Assim você tem uma rede multicamada profunda (DNN), ideal para problemas complexos e não-lineares.
